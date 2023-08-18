@@ -1,5 +1,5 @@
 import * as model from './model.js';
-import { API_URL } from './config';
+import { API_URL } from './config.js';
 import TeamsView from '../views/teamsView.js';
 import MatchesView from '../views/matchesView.js';
 import StandingsView from '../views/standingsView.js';
