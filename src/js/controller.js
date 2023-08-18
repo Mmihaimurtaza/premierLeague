@@ -7,7 +7,7 @@ import TableWeeksView from '../views/tableWeeksView.js';
 //import './regenerator-runtime/runtime';
 
 
-
+console.log("problem solved");
 
 const controlTeamsResults = async function () {
     try{
