@@ -1,6 +1,6 @@
 //import {async} from './regenerator-runtime';
-import { API_URL, OPTIONS } from "./config";
-import { getJSON} from './helpers';
+import { API_URL, OPTIONS } from "./config.js";
+import { getJSON} from './helpers.js';
 
 
 export const state = {
