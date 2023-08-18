@@ -1,0 +1,356 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+/* Club sites */
+.presentation{
+    height:100px;
+    width:100%;
+   
+    background-color: #fff;
+}
+
+.presentation ul li a img{
+
+    height:auto;
+    width:5rem;
+    transition: all 0.3s ease-in-out;
+    
+  
+}
+
+
+.presentation ul li a img:hover{
+    height:auto;
+    cursor:pointer;
+    
+    transform:scale(1.2);
+    
+    
+  
+}
+
+.presentation ul li{
+    list-style-type: none;
+    
+   margin: auto 0;
+   
+}
+
+.presentation ul {
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap:2rem;
+    padding:2rem 6rem;
+    
+}
+
+.presentation ul .sites{
+    color:#76766f;
+    font-weight:900;
+    font-size: 1.6rem;
+}
+
+.presentation ul .sites i{
+    font-size: 1.6rem;
+}
+/*End club sites */
+
+/* menu and logo*/
+.menu{
+    max-height: 20rem;
+    width:100%;
+    background:#37003c;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6rem;
+    
+ 
+ 
+
+   
+}
+.menu img{width:10rem;
+margin-left: 3rem;}
+
+.menu img:hover{
+    cursor:pointer;
+}
+.menu ul{
+    list-style-type: none;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    gap:6rem;
+    align-items: center;
+   
+}
+.menu ul li{
+    font-size:2.4rem;
+    font-weight: 600;
+}
+.menu ul li:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+}
+/*end menu and logo*/
+
+.matchWeek {
+    grid-area: matches;
+    background-color: #fff ;
+    margin:0 3rem;
+    display: flex;
+   
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    gap: 2rem;
+   
+  }
+
+ .matchWeek-number{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(#2a63af, #2e09b4);
+    
+ } 
+ .matchWeek-number img{
+    width:3rem;
+ }
+ .matchWeek-number h1{
+    font-size:3rem;
+    color: #fff;
+ }
+
+ .matchWeek .date h2{
+    color: #37003c;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    font-style:normal;
+ }
+ .matchWeek .game{
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    align-items: center;
+ }
+ .matchWeek .game p,.result{
+    font-size: 2rem;
+    font-weight: 600;
+    color:#37003c;
+ }
+ .matchWeek .game .result:not(:last-child){
+    color:#fff;
+   font-weight: 300;
+   border: .1rem solid #37003c;
+   background-color: #37003c;
+   padding:.3rem;
+ }
+ .matchWeek .game img{
+    width:4rem;
+ }
+  .standings {
+    grid-area: table-1;
+    margin-right:3rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+  }
+.main-container{
+    background-color: #37003c;
+   
+}
+.container{
+    margin-top: 3rem;
+    display:grid;
+    grid-gap: 2rem;
+    grid-template-areas:
+        "matches table-1 table-1 table-1 table-1";  
+        width:100vw;
+          
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    width:100%;
+    color: #37003c;
+  }
+  
+  th, td {
+    
+    padding:1rem 2rem;
+    font-size:1.6rem;
+    text-align: start;
+  }
+
+  th{
+    background-color: #fbfafa;
+    color:#87668a;
+    border-bottom: .05rem solid #37003c;
+    
+  }
+  td{
+    background-color: #fff;
+    display:table-cell;
+    border-bottom: 0.2rem solid #fbfafa;
+  }
+  td img{
+    width:3.2rem;
+  }
+
+  .center{
+    text-align:center;
+    
+  }
+  .bold{
+    font-weight: 600;
+   
+
+  }
+  .dropdown-content p{
+    color:#37003c;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: .3rem;
+    width: 25%;
+    border: 1px solid #37003c;
+    text-align: center;
+   
+ 
+  
+  }
+.dropdown-content .active{
+    background-color: #09b464;
+    
+}
+  .dropdown-content p:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #fbfafa;
+  }
+  .dropdown{
+    position: relative;
+   
+  }
+  .dropdown-content{
+    z-index: 34;
+    width:70%;
+    position: absolute;
+    margin-left: 0rem;
+    margin-top: 40rem;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+   
+  .isInvisible{
+    display:none;
+  }
+  .menu-content li{
+    padding:0;
+    
+  }
+
+  
+  .sponsor  img{
+    width:15rem;
+    height:auto;
+    align-items: center;
+    z-index: 1;
+  
+    margin:auto 0;
+    
+  }
+  .sponsor{
+    width:100%;
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+  .footer{
+    background-color: #37003c;
+  }
+ 
+
+  .cp-text{ 
+    text-align: center;
+    font-size: 1.4rem;
+    color:#fff;
+    padding:1rem;
+  }
+  .mobile{
+    display: none;
+  }
+  @media only screen and (max-width: 768px)  {
+     
+      .presentation{
+        display:none;
+      }
+      .menu .sponsor{
+        display:none;
+      }
+
+      .container{
+        max-width:100vw !important;
+       grid-template-areas:
+       "matches"
+        "table-1 ";
+       
+      }
+
+      .matchWeek{
+        
+        align-items: center;
+        margin:0;
+      }
+
+      .sponsor{
+        flex-direction:column;
+      }
+      .no-mobile{
+        display:none;
+      }
+      .standings{
+        margin: 0 !important;
+        width:100vw;
+      
+     
+      }
+      .standings table td{
+        font-size: 0.7rem !important;
+      }
+      .mobile{
+        display: block;
+      }
+      .desktop{
+        display:none;
+      }
+
+      .dropdown-content{
+        margin-left: -10rem;
+        margin-top: 65rem;
+      }
+    
+   }

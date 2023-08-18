@@ -1,0 +1,15 @@
+{
+  "name": "PremierLeague",
+  "version": "1.0.0",
+  "description": "PremierLeague football data app",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Murtaza Mihai",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
