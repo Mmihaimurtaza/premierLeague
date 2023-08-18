@@ -8,10 +8,6 @@ import TableWeeksView from '../views/tableWeeksView.js';
 
 
 
-if(module.hot){
-  module.hot.accept;
-}
-
 
 const controlTeamsResults = async function () {
     try{
