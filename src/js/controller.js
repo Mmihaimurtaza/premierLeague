@@ -4,7 +4,7 @@ import TeamsView from '../views/teamsView.js';
 import MatchesView from '../views/matchesView.js';
 import StandingsView from '../views/standingsView.js';
 import TableWeeksView from '../views/tableWeeksView.js';
-import 'regenerator-runtime/runtime';
+import './regenerator-runtime/runtime';
 
 
 
