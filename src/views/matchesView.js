@@ -1,4 +1,4 @@
-import View from "./view";
+import View from "./view.js";
 
 class MatchesView extends View {
     _parentElement = document.querySelector('.matchWeek');
