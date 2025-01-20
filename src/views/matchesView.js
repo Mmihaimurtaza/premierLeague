@@ -11,7 +11,7 @@ class MatchesView extends View {
            //return 10 games 
             return `
                 
-             ${matches.slice((matchWeek*10)-10, 379 ).map(this._generateMarkupMatch.bind(this)).join('')}
+             ${matches.slice((matchWeek*10)-10, (matchWeek*10)-2 ).map(this._generateMarkupMatch.bind(this)).join('')}
         
             `;
           
